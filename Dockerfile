@@ -4,4 +4,6 @@ ENV HOME=/usr/share/nginx/html/
 
 USER root
 
-COPY . $HOME
+RUN ls
+
+COPY . /usr/share/nginx/html/
